@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+#mainwrapper{
+    width: 60%;
+    padding: 10px;
+    margin: 40px auto;
+    text-align: center;
+    border: 3px double rgb(178, 190, 241);
+    background: -webkit-radial-gradient(circle, rgb(228, 219, 219) 40%,rgb(123, 182, 206));
+    box-shadow: 5px 10px 18px rgb(53, 77, 82);
+    border-radius: 10px;
+    overflow: auto;
+    resize: both;
+    transition: all 2s;
+    border-radius: 40px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 12px rgb(136, 146, 202);
+    transition: all 2s;
+    margin-bottom: 10px;
+}
+
+input[type=button]{
+    width: 100px;
+    height: 30px;  
+    border-radius: 10px;
+    background: linear-gradient(90deg,#d7bbd8,#7bb7be);
+}
+
+input[type=text]{
+    border-radius:10px;
+    height: 25px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1) ;
+    background: linear-gradient(90deg,#dfdce9,#deebec); 
+    text-align: center;
+}

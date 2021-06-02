@@ -1,0 +1,13 @@
+<div id="mainwrapper">
+
+<p>gallery works!</p>
+
+<section>
+<img [src]="img">
+</section>
+
+    <input type="button" value="pre" (click)="pre()">
+    <input type="button" value="next" (click)="next()">
+    <input type="button" [disabled]="sshow" value="show" (click)="show()">
+    <input type="button" [disabled]="sstop" value="stop" (click)="stop()">
+</div>
